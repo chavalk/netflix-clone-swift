@@ -16,6 +16,7 @@
 		BED24460292DEDAB00FB8B56 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2445F292DEDAB00FB8B56 /* UpcomingViewController.swift */; };
 		BED24462292DEDD800FB8B56 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED24461292DEDD800FB8B56 /* SearchViewController.swift */; };
 		BED24464292DEE1000FB8B56 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED24463292DEE1000FB8B56 /* DownloadsViewController.swift */; };
+		BED2446B292ECCAE00FB8B56 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2446A292ECCAE00FB8B56 /* CollectionViewTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BED2445F292DEDAB00FB8B56 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		BED24461292DEDD800FB8B56 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BED24463292DEE1000FB8B56 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		BED2446A292ECCAE00FB8B56 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,11 @@
 		BED24447292DE4B000FB8B56 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				BED24469292ECC5700FB8B56 /* Managers */,
+				BED24468292ECC4A00FB8B56 /* Resources */,
+				BED24467292ECB6500FB8B56 /* Models */,
+				BED24465292ECB4500FB8B56 /* Views */,
+				BED24466292ECB5100FB8B56 /* ViewModels */,
 				BED2445C292DECF400FB8B56 /* Controllers */,
 				BED24448292DE4B000FB8B56 /* AppDelegate.swift */,
 				BED2444A292DE4B000FB8B56 /* SceneDelegate.swift */,
@@ -82,6 +89,42 @@
 				BED24463292DEE1000FB8B56 /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BED24465292ECB4500FB8B56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BED2446A292ECCAE00FB8B56 /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BED24466292ECB5100FB8B56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BED24467292ECB6500FB8B56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BED24468292ECC4A00FB8B56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BED24469292ECC5700FB8B56 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +199,7 @@
 			files = (
 				BED24462292DEDD800FB8B56 /* SearchViewController.swift in Sources */,
 				BED2444D292DE4B000FB8B56 /* MainTabBarViewController.swift in Sources */,
+				BED2446B292ECCAE00FB8B56 /* CollectionViewTableViewCell.swift in Sources */,
 				BED24464292DEE1000FB8B56 /* DownloadsViewController.swift in Sources */,
 				BED24449292DE4B000FB8B56 /* AppDelegate.swift in Sources */,
 				BED2444B292DE4B000FB8B56 /* SceneDelegate.swift in Sources */,
