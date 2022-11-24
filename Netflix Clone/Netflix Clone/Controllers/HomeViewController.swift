@@ -67,7 +67,11 @@ class HomeViewController: UIViewController {
 //
 //        }
         
-        APICaller.shared.getUpcomingMovies { _ in
+//        APICaller.shared.getUpcomingMovies { _ in
+//
+//        }
+        
+        APICaller.shared.getPopular { _ in
             
         }
     }
