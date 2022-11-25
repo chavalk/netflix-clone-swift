@@ -35,6 +35,19 @@ class TitleTableViewCell: UITableViewCell {
         contentView.addSubview(titlePosterUIImageView)
         contentView.addSubview(titleLabel)
         contentView.addSubview(playTitleButton)
+        
+        applyConstraints()
+    }
+    
+    private func applyConstraints() {
+        let titlePosterUIImageViewConstraints = [
+            titlePosterUIImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            titlePosterUIImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
+            titlePosterUIImageView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -15),
+            titlePosterUIImageView.widthAnchor.constraint(equalToConstant: 100)
+        ]
+        
+        NSLayoutConstraint.activate(titlePosterUIImageViewConstraints)
     }
     
     required init?(coder: NSCoder) {
