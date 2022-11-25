@@ -11,8 +11,15 @@ class TitleTableViewCell: UITableViewCell {
 
     static let identifier = "TitleTableViewCell"
 
+    private let titlePosterUIImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.contentMode = .scaleAspectFit
+        return imageView
+    }()
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        contentView.addSubview(titlePosterUIImageView)
     }
     
     required init?(coder: NSCoder) {
