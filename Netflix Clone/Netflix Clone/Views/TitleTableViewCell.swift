@@ -11,6 +11,12 @@ class TitleTableViewCell: UITableViewCell {
 
     static let identifier = "TitleTableViewCell"
 
+    private let playTitleButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -28,6 +34,7 @@ class TitleTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(titlePosterUIImageView)
         contentView.addSubview(titleLabel)
+        contentView.addSubview(playTitleButton)
     }
     
     required init?(coder: NSCoder) {
