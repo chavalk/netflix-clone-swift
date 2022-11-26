@@ -47,7 +47,13 @@ class TitleTableViewCell: UITableViewCell {
             titlePosterUIImageView.widthAnchor.constraint(equalToConstant: 100)
         ]
         
+        let titleLabelConstraints = [
+            titleLabel.leadingAnchor.constraint(equalTo: titlePosterUIImageView.trailingAnchor, constant: 20),
+            titleLabel.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
+        ]
+        
         NSLayoutConstraint.activate(titlePosterUIImageViewConstraints)
+        NSLayoutConstraint.activate(titleLabelConstraints)
     }
     
     public func configure(with model: TitleViewModel) {
