@@ -29,6 +29,7 @@
 		BED244822931DEEA00FB8B56 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED244812931DEEA00FB8B56 /* SearchResultsViewController.swift */; };
 		BED244862932EC8200FB8B56 /* YouTubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED244852932EC8200FB8B56 /* YouTubeSearchResponse.swift */; };
 		BED244882932FDCB00FB8B56 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED244872932FDCB00FB8B56 /* TitlePreviewViewController.swift */; };
+		BED2448A293306C400FB8B56 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED24489293306C400FB8B56 /* TitlePreviewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		BED244812931DEEA00FB8B56 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		BED244852932EC8200FB8B56 /* YouTubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResponse.swift; sourceTree = "<group>"; };
 		BED244872932FDCB00FB8B56 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		BED24489293306C400FB8B56 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				BED2447F29318AB200FB8B56 /* TitleViewModel.swift */,
+				BED24489293306C400FB8B56 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				BED24473292FE76C00FB8B56 /* Extensions.swift in Sources */,
 				BED244862932EC8200FB8B56 /* YouTubeSearchResponse.swift in Sources */,
 				BED2444B292DE4B000FB8B56 /* SceneDelegate.swift in Sources */,
+				BED2448A293306C400FB8B56 /* TitlePreviewViewModel.swift in Sources */,
 				BED24460292DEDAB00FB8B56 /* UpcomingViewController.swift in Sources */,
 				BED244882932FDCB00FB8B56 /* TitlePreviewViewController.swift in Sources */,
 				BED24471292FD69900FB8B56 /* Title.swift in Sources */,
