@@ -25,11 +25,35 @@ class TitlePreviewViewController: UIViewController {
         return label
     }()
     
+    private let downloadButton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.backgroundColor = .red
+        button.setTitle("Download", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        return button
+    }()
+    
     private let webView: WKWebView = WKWebView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        view.addSubview(webView)
+        view.addSubview(titleLabel)
+        view.addSubview(overviewLabel)
+        view.addSubview(downloadButton)
+        
+        configureConstraints()
+    }
+    
+    func configureConstraints() {
+        let webViewConstraints = [
+            webView.topAnchor.constraint(equalTo: view.topAnchor),
+            webView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            webView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+        ]
+        
+        NSLayoutConstraint.activate(webViewConstraints)
     }
 }
