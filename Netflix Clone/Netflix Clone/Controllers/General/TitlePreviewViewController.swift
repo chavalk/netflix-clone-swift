@@ -85,4 +85,15 @@ class TitlePreviewViewController: UIViewController {
         NSLayoutConstraint.activate(overViewLabelConstraints)
         NSLayoutConstraint.activate(downloadButtonConstraints)
     }
+    
+    func configure(with model: TitlePreviewViewModel) {
+        titleLabel.text = model.title
+        overviewLabel.text = model.titleOverview
+        
+        guard let url = URL(string: "https://www.youtube.com/embed/\(model.youTubeView.id.videoId)") else {
+            return
+        }
+        
+        webView.load(URLRequest(url: url))
+    }
 }
