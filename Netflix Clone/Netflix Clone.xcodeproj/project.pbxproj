@@ -28,6 +28,7 @@
 		BED2448029318AB200FB8B56 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2447F29318AB200FB8B56 /* TitleViewModel.swift */; };
 		BED244822931DEEA00FB8B56 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED244812931DEEA00FB8B56 /* SearchResultsViewController.swift */; };
 		BED244862932EC8200FB8B56 /* YouTubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED244852932EC8200FB8B56 /* YouTubeSearchResponse.swift */; };
+		BED244882932FDCB00FB8B56 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED244872932FDCB00FB8B56 /* TitlePreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		BED2447F29318AB200FB8B56 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 		BED244812931DEEA00FB8B56 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		BED244852932EC8200FB8B56 /* YouTubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeSearchResponse.swift; sourceTree = "<group>"; };
+		BED244872932FDCB00FB8B56 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				BED244812931DEEA00FB8B56 /* SearchResultsViewController.swift */,
+				BED244872932FDCB00FB8B56 /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				BED244862932EC8200FB8B56 /* YouTubeSearchResponse.swift in Sources */,
 				BED2444B292DE4B000FB8B56 /* SceneDelegate.swift in Sources */,
 				BED24460292DEDAB00FB8B56 /* UpcomingViewController.swift in Sources */,
+				BED244882932FDCB00FB8B56 /* TitlePreviewViewController.swift in Sources */,
 				BED24471292FD69900FB8B56 /* Title.swift in Sources */,
 				BED2445E292DED5A00FB8B56 /* HomeViewController.swift in Sources */,
 				BED2448029318AB200FB8B56 /* TitleViewModel.swift in Sources */,
