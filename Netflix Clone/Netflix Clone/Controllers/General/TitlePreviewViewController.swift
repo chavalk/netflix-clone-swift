@@ -44,7 +44,7 @@ class TitlePreviewViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = .systemBackground
         view.addSubview(webView)
         view.addSubview(titleLabel)
         view.addSubview(overviewLabel)
@@ -71,8 +71,14 @@ class TitlePreviewViewController: UIViewController {
             overviewLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20)
         ]
         
+        let downloadButtonConstraints = [
+            downloadButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            downloadButton.topAnchor.constraint(equalTo: overviewLabel.bottomAnchor, constant: 25)
+        ]
+        
         NSLayoutConstraint.activate(webViewConstraints)
         NSLayoutConstraint.activate(titleLabelConstraints)
         NSLayoutConstraint.activate(overViewLabelConstraints)
+        NSLayoutConstraint.activate(downloadButtonConstraints)
     }
 }
