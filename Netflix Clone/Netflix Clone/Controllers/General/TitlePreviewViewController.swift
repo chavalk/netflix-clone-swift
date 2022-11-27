@@ -36,7 +36,11 @@ class TitlePreviewViewController: UIViewController {
         return button
     }()
     
-    private let webView: WKWebView = WKWebView()
+    private let webView: WKWebView = {
+        let webView = WKWebView()
+        webView.translatesAutoresizingMaskIntoConstraints = false
+        return webView
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,9 +55,10 @@ class TitlePreviewViewController: UIViewController {
     
     func configureConstraints() {
         let webViewConstraints = [
-            webView.topAnchor.constraint(equalTo: view.topAnchor),
+            webView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
             webView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            webView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
+            webView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            webView.heightAnchor.constraint(equalToConstant: 250)
         ]
         
         let titleLabelConstraints = [
