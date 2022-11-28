@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BECDFA182935444F0086DD02 /* NetflixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BECDFA162935444F0086DD02 /* NetflixCloneModel.xcdatamodeld */; };
+		BECDFA1A29354F1B0086DD02 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECDFA1929354F1B0086DD02 /* DataPersistenceManager.swift */; };
 		BED24449292DE4B000FB8B56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED24448292DE4B000FB8B56 /* AppDelegate.swift */; };
 		BED2444B292DE4B000FB8B56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2444A292DE4B000FB8B56 /* SceneDelegate.swift */; };
 		BED2444D292DE4B000FB8B56 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED2444C292DE4B000FB8B56 /* MainTabBarViewController.swift */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		BECDFA172935444F0086DD02 /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
+		BECDFA1929354F1B0086DD02 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 		BED24445292DE4B000FB8B56 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED24448292DE4B000FB8B56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED2444A292DE4B000FB8B56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				BED2446E292FC6D100FB8B56 /* APICaller.swift */,
+				BECDFA1929354F1B0086DD02 /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				BED2447E29316F9200FB8B56 /* TitleTableViewCell.swift in Sources */,
 				BED24462292DEDD800FB8B56 /* SearchViewController.swift in Sources */,
 				BED2447729301E2A00FB8B56 /* TitleCollectionViewCell.swift in Sources */,
+				BECDFA1A29354F1B0086DD02 /* DataPersistenceManager.swift in Sources */,
 				BED2444D292DE4B000FB8B56 /* MainTabBarViewController.swift in Sources */,
 				BED2446B292ECCAE00FB8B56 /* CollectionViewTableViewCell.swift in Sources */,
 				BED2446F292FC6D100FB8B56 /* APICaller.swift in Sources */,
